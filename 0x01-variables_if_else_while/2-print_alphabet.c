@@ -1,7 +1,3 @@
-able File  18 lines (16 sloc)  233 Bytes
-
-
-
 #include <stdio.h>
 
 #include <stdlib.h>
@@ -22,15 +18,15 @@ int main(void)
 
 {
 
-		char low;
+		int d;
 
 
 
-			for (low = 'a'; low <= 'z'; low++)
+			for (d = '0'; d <= '9'; d++)
 
-						putchar(low);
+						putchar(d);
 
-					printf("\n");
+					putchar('\n');
 
 
 
